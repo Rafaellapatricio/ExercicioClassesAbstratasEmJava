@@ -8,32 +8,24 @@ O projeto está organizado da seguinte forma:
 **`Colaborador.java`**: Classe abstrata responsável por representar as informações dos funcionários.
     
     -   Atributos:- nome, cpf, idade,isAtivo,salario, habilidadeTecnica
-    -   Métodos: Construtores.
+     -   Métodos: Construtores, Visualizar, desvincularColaborador, receberAumento.
     
-**`Animal.java`**: Classe que modela as características de um animal de estimação.
+**`DevBackEnd.java`**: Classe que modela as características do desenvolvedor BackEnd.
     
-    -   Atributos: Nome, espécie, idade, etc.
-    -   Métodos: Construtores.
+    -   Métodos: Construtores, Visualizar, desvincularColaborador, receberAumento.
+
+**`DevFrontEnd.java`**: Classe que modela as características do desenvolvedor FrontEnd.
     
-**`Main.java`**: Ponto de entrada do programa.
+    -   Métodos: Construtores, Visualizar, desvincularColaborador, receberAumento.
+    
+**`Designer.java`**: Classe que modela as características do Designer.
+    
+    -   Métodos: Construtores, Visualizar, desvincularColaborador, receberAumento.
+    
+**`Gerente.java`**: Classe que modela as características do Gerente.
+    
+    -   Métodos: Construtores, Visualizar, desvincularColaborador, receberAumento.
+    
+**`App.java`**: Ponto de entrada do programa.
     
     -   Contém a lógica principal para interação com o usuário.
-
-## Funcionalidades
-
-1.  **Cadastro de Usuário:**
-    
-    -   Utiliza a classe `Usuario` para criar e armazenar informações do usuário.
-2.  **Login:**
-    -   Autentica usuários usando suas credenciais.
-      
-3.  **Cadastro de Pet:**
-    -   Utiliza a classe `Animal` para criar e armazenar informações sobre os pets.
-      
-4.  **Consulta de Informações:**
-    
-    -   Permite aos usuários visualizar as informações de seus pets.
-
-Siga as instruções no console para interagir com o sistema.
-Divirta-se codificando e aprimorando a clínica de pet em Java!
-
